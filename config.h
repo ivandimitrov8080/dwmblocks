@@ -1,6 +1,7 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
+	{"", "volume get", 							0,		10},
 	{"", "netstat",								1,		0},
 	{"", "curl wttr.in/Nottingham\?format=\"%C+%t+%p\"",			3600,		0},
 	{"", "free -h | awk '/^Mem/ { print $3\"/\"$2 }' | sed s/i//g",	5,		0},
