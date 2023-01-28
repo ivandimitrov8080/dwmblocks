@@ -1,6 +1,7 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/							/*Update Interval*/	/*Update Signal*/
+	{"", 		"meminfo",							1,			0},
 	{"", 		"curl wttr.in\?format=\"%C+%t+%p\"",				3600,			0},
 	{"", 		"date '+%b %d (%a) %I:%M%p'",					60,			0},
 };
